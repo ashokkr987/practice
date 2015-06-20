@@ -12,7 +12,7 @@ public class LoginStatus {
         this.username = username;
     	this.errorMessage = errorMessage;
     }
-
+///ashok
     public String getErrorMessage() {
 		return errorMessage;
 	}
@@ -20,6 +20,7 @@ public class LoginStatus {
 	public boolean isLoggedIn() {
         return loggedIn;
     }
+	
 
     public String getUsername() {
         return username;
